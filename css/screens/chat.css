@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #bde4db;
   height: 500vh;
 }
 
@@ -8,8 +8,13 @@
   top: 0px;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: #bde4db;
+  color: #264942;
   box-sizing: border-box;
+}
+
+#chat-screen .alt-header__column i {
+  color: #264942;
 }
 
 #chat-screen .status-bar {
@@ -41,7 +46,7 @@
 
 .chat__timestamp {
   color: #fff;
-  background-color: #92a4b2;
+  background-color: #26494241;
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
@@ -52,6 +57,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  color: #264942;
 }
 
 .message-row img {
@@ -91,7 +97,8 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: #264942da;
+  color: #fff;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -125,13 +132,13 @@
 }
 
 .reply i {
-  opacity: 0.5;
+  color: #264942da;
 }
 
 .reply input {
   padding: 14px;
   width: 100%;
-  border: var(--main-border);
+  border: 1px solid #264942da;
   border-radius: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
@@ -150,7 +157,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: #264942da;
   border: none;
   width: 40px;
   height: 40px;
@@ -158,7 +165,7 @@
 }
 
 .reply__column button i {
-  opacity: 1;
+  color: #fff;
 }
 
 .reply__column button:focus,

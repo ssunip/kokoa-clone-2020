@@ -6,7 +6,7 @@
 }
 
 .recommended-friends__title {
-  color: var(--grey);
+  color: var(--subcolor);
 }
 
 .recommended-friends span {
@@ -14,7 +14,6 @@
   margin: 100px 0;
   text-align: center;
   font-size: 18px;
-  color: var(--grey);
 }
 
 .open-chat__header {
@@ -70,7 +69,7 @@
 }
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: #fc61be;
 }
 
 .open-post__photo {
