@@ -65,11 +65,11 @@
   width: 2px;
   height: 15px;
   margin: 0 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #4c000117;
 }
 
 .open-post__member-status {
-  color: #fc61be;
+  color: #264942da;
 }
 
 .open-post__photo {
