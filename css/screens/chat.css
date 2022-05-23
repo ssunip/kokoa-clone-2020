@@ -37,7 +37,7 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,11 +53,25 @@
   margin-bottom: 25px;
 }
 
+@keyframes popUpBubble {
+  from {
+    transform: translate(0) scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .message-row {
+  opacity: 0;
   width: 100%;
   display: flex;
   margin-bottom: 25px;
   color: #264942;
+  animation: popUpBubble 0.2s ease-in-out forwards;
+  animation-delay: 1.5s;
 }
 
 .message-row img {
@@ -93,7 +107,18 @@
 }
 
 .message-row--own {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
   justify-content: flex-end;
+  color: #264942;
+}
+
+.message-row--own .message__bubble,
+.message-row--own .message__info {
+  opacity: 0;
+  animation: popUpBubble 0.2s ease-in-out forwards;
+  animation-delay: 2.3s;
 }
 
 .message-row--own .message__bubble {
