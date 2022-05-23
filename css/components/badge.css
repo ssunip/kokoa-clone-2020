@@ -9,3 +9,15 @@
   color: #fff;
   font-weight: 600;
 }
+
+.badge-new {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+}
